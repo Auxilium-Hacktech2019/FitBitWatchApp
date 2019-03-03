@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "eab286b9-d01c-464a-b3af-d769527296b7",
+    "appType": "clockface",
+    "appDisplayName": "Heart Rate and Alert",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#9c27b0",
+    "requestedPermissions": [
+      "access_internet",
+      "access_exercise",
+      "access_heart_rate",
+      "access_user_profile",
+      "access_location",
+      "run_background",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Heart Rate and Alert"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}

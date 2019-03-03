@@ -1,0 +1,23 @@
+.background {
+  viewport-fill: #111111;
+}
+
+#myLabel {
+  font-size: 80;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%-5;
+  y: 30%+40;
+  fill: white;
+}
+
+#heartRateLabel {
+  font-size: 90;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 65%;
+  y: 82%;
+  fill: #f9e245;
+}
